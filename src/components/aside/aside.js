@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from '../link/link'
-import styles from './header.module.css'
+import styles from './aside.module.css'
 
-const Header = () => {
+const Aside = () => {
     return (
         <header className={styles.navigation}>
             <Link href="#" title="Going to 1"/>
@@ -14,4 +14,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Aside
